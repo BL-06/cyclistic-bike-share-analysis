@@ -1,5 +1,5 @@
 ride_id,rideable_type,started_at,ended_at,start_station_name,start_station_id,end_station_name,end_station_id,start_lat,start_lng,end_lat,end_lng,member_casual,ride_length,day_of_week_start,day_of_week_end,trips_changing_day,ride_length_mean,ride_length_max,day_start_mode,day_end_mode
-8B38081EBE918800,electric_bike,17:48:52,17:59:06,Wabash Ave & Adams St,KA1503000015,Green St & Madison St,TA1307000120,41.8795,-87.6257,41.8819,-87.6493,member,00:10:14,4,4,1,00:08:49,00:27:44,3,3
+8B38081EBE918800,electric_bike,17:48:52,17:59:06,Wabash Ave & Adams St,KA1503000015,Green St & Madison St,TA1307000120,41.8795,-87.6257,41.8819,-87.6493,member,00:10:14,4,4,0,00:08:49,00:27:44,3,3
 CAD23D69A79A8A3B,classic_bike,08:22:04,08:32:06,Clark St & Elm St,TA1307000039,Orleans St & Merchandise Mart Plaza,TA1305000022,41.9030,-87.6313,41.8882,-87.6364,member,00:10:02,5,5,,,,,
 7C3F3F25706F1893,electric_bike,19:07:54,19:11:15,Halsted St & Maxwell St,TA1309000001,Halsted St & Polk St,TA1307000121,41.8649,-87.6471,41.8718,-87.6466,member,00:03:21,5,5,,,,,
 EAE458BB6B131668,electric_bike,17:25:55,17:35:03,Michigan Ave & Jackson Blvd,TA1309000002,McClurg Ct & Ohio St,TA1306000029,41.8778,-87.6242,41.8926,-87.6173,member,00:09:07,4,4,,,,,
