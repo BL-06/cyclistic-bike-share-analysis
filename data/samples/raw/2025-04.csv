@@ -1,0 +1,20 @@
+ride_id,rideable_type,started_at,ended_at,start_station_name,start_station_id,end_station_name,end_station_id,start_lat,start_lng,end_lat,end_lng,member_casual
+AF3863596DF9D94B,classic_bike,29:34.6,36:23.6,Troy St & Elston Ave,15631,Richmond St & Diversey Ave,15645,41.94524357,-87.7066499,41.93190197,-87.70119513,member
+8B38081EBE918800,electric_bike,48:51.9,59:06.0,Wabash Ave & Adams St,KA1503000015,Green St & Madison St,TA1307000120,41.87947235,-87.62568861,41.881859328038225,-87.64926374,member
+1C7F1DE826BBBC8D,electric_bike,55:30.8,05:40.0,Damen Ave & Cortland St,13133,California Ave & Fletcher St,15642,41.915983,-87.677335,41.93842879,-87.69800776,member
+CAD23D69A79A8A3B,classic_bike,22:04.5,32:06.1,Clark St & Elm St,TA1307000039,Orleans St & Merchandise Mart Plaza,TA1305000022,41.902973,-87.63128,41.888243,-87.63639,member
+BE241E601482E0AB,electric_bike,09:55.3,19:58.9,Western Ave & Walton St,KA1504000103,Damen Ave & Charleston St,13288,41.89841769,-87.68659602,41.920082,-87.677855,member
+752C0388D68EBBE5,electric_bike,33:34.5,41:50.0,Western Ave & Walton St,KA1504000103,Damen Ave & Charleston St,13288,41.89841769,-87.68659602,41.920082,-87.677855,member
+C2C6CE2F046E4B4A,classic_bike,11:59.3,29:09.3,Lincoln Ave & Roscoe St*,chargingstx5,Broadway & Cornelia Ave,13278,41.94335025,-87.67066777,41.945529,-87.646439,member
+D1004EF94E7957C6,electric_bike,28:47.6,49:30.8,Damen Ave & Cortland St,13133,Broadway & Wilson Ave,13074,41.915983,-87.677335,41.965221,-87.658139,member
+95DC50DED42F7876,classic_bike,19:32.8,24:02.7,Clark St & Elm St,TA1307000039,Clark St & North Ave,13128,41.9033216,-87.6329993,41.911974,-87.631942,member
+5CB06C086A4C8C21,classic_bike,08:21.8,52:59.8,Michigan Ave & Madison St,13036,Wabash Ave & Grand Ave,TA1307000117,41.882134,-87.625125,41.891466,-87.626761,casual
+F9F573B7B4F72DAA,classic_bike,07:38.3,52:57.0,Michigan Ave & Madison St,13036,Wabash Ave & Grand Ave,TA1307000117,41.882134,-87.625125,41.891466,-87.626761,casual
+D4B0A1EAD29A8A09,classic_bike,07:41.4,17:57.3,Elizabeth St & Randolph St,23001,Green St & Randolph St*,chargingstx3,41.884336,-87.658902,41.883601657275165,-87.64862671,member
+1CEBACC317AB7A02,classic_bike,48:51.9,53:03.4,Desplaines St & Kinzie St,TA1306000003,Jefferson St & Monroe St,WL-011,41.88871604,-87.64444785,41.880329633634624,-87.64274597,member
+E0E006E99CDBC225,electric_bike,46:22.2,53:44.9,Broadway & Wilson Ave,13074,Broadway & Waveland Ave,13325,41.965221,-87.658139,41.949074,-87.648636,member
+E802767006FB6273,classic_bike,59:52.3,12:08.5,Broadway & Wilson Ave,13074,Sheridan Rd & Buena Ave,TA1309000027,41.965221,-87.658139,41.958494,-87.654966,member
+DE01BDBB563F6A0F,classic_bike,36:45.4,43:47.6,Elizabeth St & Randolph St,23001,Carpenter St & Huron St,13196,41.884336,-87.658902,41.894556,-87.653449,member
+5DC08873AC6856BE,classic_bike,11:23.8,43:59.1,Pine Grove Ave & Irving Park Rd,13324,Canal St & Madison St,13341,41.9543646,-87.6479285,41.882409,-87.639767,member
+2D0BB545123FA393,electric_bike,06:05.9,16:08.2,Wabash Ave & Grand Ave,TA1307000117,Elizabeth St & Randolph St,23001,41.891466,-87.626761,41.884336,-87.658902,member
+C41A8AD77D3DE928,electric_bike,09:08.5,25:00.1,Halsted St & Maxwell St,TA1309000001,Wells St & Huron St,13064,41.864883,-87.647071,41.8947953,-87.6343743,member
