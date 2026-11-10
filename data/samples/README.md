@@ -23,6 +23,6 @@
 - **Filling blanks in**: Where there were blanks, the word "Missing" was filled in instead. This allowed the useful data from the row to be used whilst not impacting final calculations like mean or mode.
 
 ## Combined data and PivotTables
-- ![Cyclistic bike share analysis summary](../../reports/images/combined_2025_data_divvy-1.png)
+ ![Cyclistic bike share analysis summary](../../reports/images/combined_2025_data_divvy-1.png)
 - These tables were produced from combined April and October data.
 
