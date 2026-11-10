@@ -1,7 +1,5 @@
 # Browsable data samples
 
-The CSV files in this folder are small excerpts pasted for the project showcase. GitHub can display CSV files directly in a readable table view.
-
 ## Files
 
 | Folder | File | Description |
@@ -13,16 +11,18 @@ The CSV files in this folder are small excerpts pasted for the project showcase.
 
 ## Notes on interpreting the samples
 
-- These are illustrative excerpts, not the full source datasets.
-- The raw and cleaned excerpts are from the same named months, but the pasted excerpts do not contain the same ride IDs in the same order. Do not treat them as a row-by-row before-and-after comparison.
-- In the raw excerpts, `started_at` and `ended_at` appear as time-only values (for example, `29:34.6`); the date is not present in the pasted sample. In the cleaned excerpts they are shown as formatted times. Explain the exact transformation and source date handling in your project documentation if the full workbook contains that information.
+- These are purely samples, and nowhere near the entire spreadsheet (which includes 600,000+ rows).
+- The raw and cleaned excerpts are from the same named months, but not necessarily the same rows shown (as some would have been removed in the cleaning process.
+- In the raw samples, `started_at` and `ended_at` appear as time-only values (for example, `29:34.6`). The date is not visible, though it is present which is how the `day of the week` columns were produced.
 - Missing station values are represented as blank in the raw October excerpt and as `Missing` in the cleaned October excerpt.
-- The cleaned excerpts included an empty, unnamed column. That empty column has been removed from the showcase CSVs. Other columns and supplied values are retained; the sparse summary columns are not reinterpreted here. If these are workbook-level summary statistics, consider documenting or separating them from ride-level fields in the final analysis.
-- The sample data is provided for portfolio viewing only. Link to or include full data only if the source terms permit redistribution.
+  
+## Reasoning for cleaning
+- **Removing rows**: Some rows would have had start/end stations that were unidentifiable rather than just being missing, which would make said data harder to factor in. Removing these rows proved to keep data clean and reliable whilst not impacting analysis too harshly.
+- **Fixing time formatting**: Times appeared as random numbers to readers, so putting them into a 24 hour format allowed for easier interpretation.
+- **Latitude and longitude**: These have been restricted to 4 decimal places, allowing a standardised format across the spreadsheet whilst not compromising geographical accuracy. Whilst not visible, there were apostrophes at the start of some of these values, which have been removed.
+- **Filling blanks in**: Where there were blanks, the word "Missing" was filled in instead. This allowed the useful data from the row to be used whilst not impacting final calculations like mean or mode.
 
-## Suggested next steps
+## Combined data and PivotTables
+- **![PivotTables](reports/images/combined_2025_data_divvy-1.png)**
+- These tables were produced from combined April and October data.
 
-1. Add the source-data citation and download instructions.
-2. Describe each cleaning step and why it was performed.
-3. Record validation checks, such as row counts and missing-value checks.
-4. Add the published Tableau dashboard link and a screenshot to the project README.
