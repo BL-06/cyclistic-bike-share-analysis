@@ -4,10 +4,10 @@
 
 | Folder | File | Description |
 |---|---|---|
-| `raw/` | `2025-04.csv` | Raw April 2025 excerpt |
-| `raw/` | `2025-10.csv` | Raw October 2025 excerpt |
-| `cleaned/` | `2025-04.csv` | Cleaned April 2025 excerpt |
-| `cleaned/` | `2025-10.csv` | Cleaned October 2025 excerpt |
+| `raw/` | `2025-04.csv` | Raw April 2025 sample |
+| `raw/` | `2025-10.csv` | Raw October 2025 sample |
+| `cleaned/` | `2025-04.csv` | Cleaned April 2025 sample |
+| `cleaned/` | `2025-10.csv` | Cleaned October 2025 sample |
 
 ## Notes on interpreting the samples
 
