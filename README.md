@@ -19,7 +19,8 @@ Google Data Analytics Capstone project exploring Cyclistic Bike Share usage with
 - The process of cleaning includes but is not limited to; date format correcting, removing inaccurate data and outliers (calculated using interquartile range for quantitative data and removing illegitimate qualitative data), filling in empty spaces with "Missing" where data doesn't fulfill the requirement of an outlier and keeping longitude and latitude to 4 d.p.
 - Cleaned data was validated using filters and formulas (like quartiles and maximums).
 - Using the cleaned data, ride length (as well as its mean and max) and the day of the week where rides start and end (as well as their modes) were calculated. A column where the number of trips change day has been included.
-- See the [sample-data notes](data/samples/README.md) for important caveats. Add your full cleaning workflow, validation checks, and analysis findings here so readers can understand how you reached your conclusions.
+- PivotTables have been created.
+- See the [sample-data notes](data/samples/README.md) for reasoning behind cleaning steps.
 
 ## Tableau Dashboard
 
