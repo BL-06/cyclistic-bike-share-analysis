@@ -22,6 +22,9 @@ Google Data Analytics Capstone project exploring Cyclistic Bike Share usage with
 - PivotTables have been created.
 - See the [sample data notes](data/samples/README.md) for reasoning behind cleaning steps.
 
+## Conclusion
+- Using the analysis, it can be seen that (using start station maps and trip durations) casual riders predominantly use Cyclistic for long weekend trips near waterfront areas whilst members use Cyclistic during weekdays for shorter trips. Using this, conversion of casual riders to members can be done by advertising the membership options near these waterfront stations, introducing weekend plans for this demographic and making it easier to understand that the membership is a way to save money.
+
 ## Tableau Dashboard
 
 - **[Published Dashboard](https://public.tableau.com/views/Cyclistic_17942426221390/CyclistDataDashboard?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)** - Visualisations of processed data
