@@ -8,9 +8,10 @@ Google Data Analytics Capstone project exploring Cyclistic Bike Share usage with
 
 ## Project materials
 
-- **[Raw data samples](data/samples/raw/)** — samples of the raw data taken from Google's Cyclistic database.
-- **[Cleaned data samples](data/samples/cleaned/)** — samples of the same raw data processed and cleaned by me.
-- **[Sample-data notes](data/samples/README.md)** — notes on how to interpret the said data.
+- **[Raw data samples](data/samples/raw/)** - samples of the raw data taken from Google's Cyclistic database.
+- **[Cleaned data samples](data/samples/cleaned/)** - samples of the same raw data processed and cleaned by me.
+- **[Sample data notes](data/samples/README.md)** - notes on how to interpret the said data.
+- **![PivotTables](reports/images/combined_2025_data_divvy-1.png)** - image of PivotTables where the source is the combined data from April and October.
 
 - Due to GitHub restrictions, I have limited both the raw data and cleaned data to 20 rows each. This has lead to an inaccuracy in mode, mean, and maximum inside the sample. Where possible, I have not changed said measurements to reflect the sample, as they should only be representative of the entire spreadsheet.
 
