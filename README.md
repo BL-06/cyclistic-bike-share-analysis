@@ -1,27 +1,30 @@
-# Cyclistic Bike-Share Analysis
+# Cyclistic Bike Share Analysis
 
-Google Data Analytics Capstone project exploring Cyclistic bike-share usage with Excel and Tableau.
+Google Data Analytics Capstone project exploring Cyclistic Bike Share usage with Excel and Tableau.
 
 ## Project question
 
-How do Cyclistic members and casual riders use bikes differently, and how could those differences inform strategies to convert casual riders into annual members?
+**Through looking at the data of casual riders and cyclistic members, how could we convert people who aren't members into members?**
 
 ## Project materials
 
-- **[Raw data samples](data/samples/raw/)** — small excerpts from the unmodified April and October 2025 source data.
-- **[Cleaned data samples](data/samples/cleaned/)** — corresponding-month excerpts showing the prepared data structure.
-- **[Sample-data notes](data/samples/README.md)** — what these excerpts demonstrate and how to interpret them.
+- **[Raw data samples](data/samples/raw/)** — samples of the raw data taken from Google's Cyclistic database.
+- **[Cleaned data samples](data/samples/cleaned/)** — samples of the same raw data processed and cleaned by me.
+- **[Sample-data notes](data/samples/README.md)** — notes on how to interpret the said data.
 
-These are small examples for browsing on GitHub, not the complete datasets. The raw and cleaned excerpts are not guaranteed to contain matching ride IDs row by row. Full files are not included here.
+- Due to GitHub restrictions, I have limited both the raw data and cleaned data to 20 rows each. This has lead to an inaccuracy in mode, mean, and maximum inside the sample. Where possible, I have not changed said measurements to reflect the sample, as they should only be representative of the entire spreadsheet.
 
-## Cleaning and analysis
+## Cleaning and Analysis
 
-The cleaned samples demonstrate standardized time formatting, ride-duration and weekday fields, and handling of missing station values. See the [sample-data notes](data/samples/README.md) for important caveats. Add your full cleaning workflow, validation checks, and analysis findings here so readers can understand how you reached your conclusions.
+- The process of cleaning includes but is not limited to; date format correcting, removing inaccurate data and outliers (calculated using interquartile range for quantitative data and removing illegitimate qualitative data), filling in empty spaces with "Missing" where data doesn't fulfill the requirement of an outlier and keeping longitude and latitude to 4 d.p.
+- Cleaned data was validated using filters and formulas (like quartiles and maximums).
+- Using the cleaned data, ride length (as well as its mean and max) and the day of the week where rides start and end (as well as their modes) were calculated. A column where the number of trips change day has been included.
+- See the [sample-data notes](data/samples/README.md) for important caveats. Add your full cleaning workflow, validation checks, and analysis findings here so readers can understand how you reached your conclusions.
 
-## Tableau dashboard
+## Tableau Dashboard
 
-_Add your published Tableau Public dashboard link here._
+- **[Published Dashboard](https://public.tableau.com/views/Cyclistic_17942426221390/CyclistDataDashboard?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)** - Visualisations of processed data
 
 ## Tools
 
-Excel · Tableau
+- Excel · Tableau
