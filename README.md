@@ -20,7 +20,7 @@ Google Data Analytics Capstone project exploring Cyclistic Bike Share usage with
 - Cleaned data was validated using filters and formulas (like quartiles and maximums).
 - Using the cleaned data, ride length (as well as its mean and max) and the day of the week where rides start and end (as well as their modes) were calculated. A column where the number of trips change day has been included.
 - PivotTables have been created.
-- See the [sample-data notes](data/samples/README.md) for reasoning behind cleaning steps.
+- See the [sample data notes](data/samples/README.md) for reasoning behind cleaning steps.
 
 ## Tableau Dashboard
 
