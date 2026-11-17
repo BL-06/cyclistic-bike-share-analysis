@@ -2,11 +2,11 @@
 
 Google Data Analytics Capstone project exploring Cyclistic Bike Share usage with Excel and Tableau.
 
-## Project question
+## Project Question
 
 **Through looking at the data of casual riders and cyclistic members, how could we convert people who aren't members into members?**
 
-## Project materials
+## Project Materials
 
 - **[Raw data samples](data/samples/raw/)** - samples of the raw data taken from Google's Cyclistic database.
 - **[Cleaned data samples](data/samples/cleaned/)** - samples of the same raw data processed and cleaned by me.
