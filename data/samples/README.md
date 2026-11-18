@@ -17,7 +17,7 @@
 - Missing station values are represented as blank in the raw October excerpt and as `Missing` in the cleaned October excerpt.
   
 ## Reasoning for cleaning
-- **Removing rows**: Some rows would have had start/end stations that were unidentifiable rather than just being missing, which would make said data harder to factor in. Removing these rows proved to keep data clean and reliable whilst not impacting analysis too harshly.
+- **Removing rows**: Rows with a start or end station ID in an older numeric format (e.g. 15642) were removed, as these IDs could not be matched to the station IDs used in October. This removed a large share of April’s data (371,341 rows down to 58,441), so April makes up about 9% of the cleaned data and the findings mainly reflect October. Keeping these rows and matching them by station name instead would be a possible improvement.
 - **Fixing time formatting**: Times appeared as random numbers to readers, so putting them into a 24 hour format allowed for easier interpretation.
 - **Latitude and longitude**: These have been restricted to 4 decimal places, allowing a standardised format across the spreadsheet whilst not compromising geographical accuracy. Whilst not visible, there were apostrophes at the start of some of these values, which have been removed.
 - **Filling blanks in**: Where there were blanks, the word "Missing" was filled in instead. This allowed the useful data from the row to be used whilst not impacting final calculations like mean or mode.
