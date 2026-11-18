@@ -18,9 +18,9 @@
   
 ## Reasoning for cleaning
 - **Removing rows**: In April, only rows with start and end station IDs in the TA/KA format were kept. Rows with other ID formats (such as numeric IDs like 15642, or SL-/WL- codes) and rows with blank stations were removed, as they were harder to trace to a station. Together with outlier removal, this reduced April from 371,341 rows to 58,441, so April makes up about 9% of the cleaned data and the findings mainly reflect October. In October, blank stations were filled with “Missing” instead, so only outliers were removed.
-- **Fixing time formatting**: Times appeared as random numbers to readers, so putting them into a 24 hour format allowed for easier interpretation.
-- **Latitude and longitude**: These have been restricted to 4 decimal places, allowing a standardised format across the spreadsheet whilst not compromising geographical accuracy. Whilst not visible, there were apostrophes at the start of some of these values, which have been removed.
-- **Filling blanks in**: Where there were blanks, the word "Missing" was filled in instead. This allowed the useful data from the row to be used whilst not impacting final calculations like mean or mode.
+- **Fixing time formatting**: Start and end times were displayed as minutes and seconds only (e.g. 29:34.6), hiding the hour and date, so they were reformatted to show the full time in 24-hour format.
+- **Latitude and longitude**: In October, coordinates were rounded to 4 decimal places (about 11 metres), giving a standard format without losing meaningful accuracy. In April, they were formatted to display 4 decimal places. In both months, hidden apostrophes at the start of some values were removed, as they made Excel treat the coordinates as text, not numbers.
+- **Filling blanks in**: In October, blank station values were replaced with “Missing”, so the rest of the row could still be used. This doesn’t affect the ride length and weekday calculations, and “Missing” was excluded from the station rankings.
 
 ## Combined data and PivotTables
  ![Cyclistic bike share analysis summary](../../reports/images/combined_2025_data_divvy-1.png)
